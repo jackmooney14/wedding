@@ -1,84 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Isabel & Jack | Wedding</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Isabel & Jack</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <nav class="site-nav">
-    <ul>
-      <li><a href="#welcome">Welcome</a></li>
-      <li><a href="#story">Our Story</a></li>
-      <li><a href="#details">Details</a></li>
-      <li><a href="#schedule">Schedule</a></li>
-      <li><a href="#rsvp">RSVP</a></li>
-      <li><a href="#gallery">Gallery</a></li>
-    </ul>
-  </nav>
-
-  <section id="welcome" class="hero">
-    <div class="hero-content">
-      <h1>Isabel & Jack</h1>
-      <p>We can’t wait to celebrate our special day with you!</p>
-      <a href="#rsvp" class="btn">RSVP</a>
-    </div>
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Isabel & Jack</h1>
+    <p>Join us in celebrating our wedding!</p>
   </section>
 
-  <section id="story" class="section story">
-    <div class="container">
+  <!-- Welcome Section -->
+  <section class="container">
+    <div class="section-title">
+      <h2>Welcome</h2>
+    </div>
+    <p class="section-content">We are so excited to celebrate our special day with you. Here you’ll find all the details about our wedding and how to RSVP.</p>
+  </section>
+
+  <!-- Our Story Section -->
+  <section class="container story">
+    <img src="images/story.jpg" alt="Couple Photo">
+    <div class="story-text">
       <h2>Our Story</h2>
-      <p><!-- Paste text from your Joy "Our Story" section here --></p>
+      <p>From the moment we met, our journey together has been filled with laughter, adventure, and love. We can't wait to share this special day with all our friends and family!</p>
     </div>
   </section>
 
-  <section id="details" class="section details">
-    <div class="container">
-      <h2>Wedding Details</h2>
-      <p><strong>Date:</strong> Saturday, August 1, 2026</p>
-      <p><strong>Venue:</strong> Shrewsbury House Community Centre, Bushmoor Crescent, London, UK</p>
-      <p><!-- Other details like time, dress code, map etc --></p>
+  <!-- Details Section -->
+  <section class="container details">
+    <div class="section-title">
+      <h2>Details</h2>
+    </div>
+    <div class="detail-card">
+      <h3>When & Where</h3>
+      <p>Saturday, June 15th, 2025<br>Sunset Gardens, Cityville</p>
+    </div>
+    <div class="detail-card">
+      <h3>Accommodations</h3>
+      <p>We've reserved rooms at nearby hotels. Check our travel page for more info.</p>
+    </div>
+    <div class="detail-card">
+      <h3>Dress Code</h3>
+      <p>Formal attire requested. Think summer wedding chic!</p>
     </div>
   </section>
 
-  <section id="schedule" class="section schedule">
-    <div class="container">
+  <!-- Schedule Section -->
+  <section class="container">
+    <div class="section-title">
       <h2>Schedule</h2>
-      <ul>
-        <!-- Example items -->
-        <li><strong>3:00 PM:</strong> Ceremony</li>
-        <li><strong>4:00 PM:</strong> Drinks & Reception</li>
-        <li><strong>6:00 PM:</strong> Dinner</li>
-        <!-- Add or remove as needed -->
-      </ul>
     </div>
-  </section>
-
-  <section id="rsvp" class="section rsvp">
-    <div class="container">
-      <h2>RSVP</h2>
-      <p>Please let us know if you can join us.</p>
-      <a href="https://withjoy.com/isabel-jack/rsvp" class="btn" target="_blank">RSVP Here</a>
-    </div>
-  </section>
-
-  <section id="gallery" class="section gallery">
-    <div class="container">
-      <h2>Gallery</h2>
-      <div class="photos">
-        <!-- Paste in image tags for your Joy gallery images -->
-        <!-- Example: <img src="images/photo1.jpg" alt="…"> -->
+    <div class="section-content">
+      <div class="detail-card">
+        <h3>Ceremony</h3>
+        <p>4:00 PM - Sunset Gardens</p>
+      </div>
+      <div class="detail-card">
+        <h3>Reception</h3>
+        <p>6:00 PM - Sunset Gardens Hall</p>
       </div>
     </div>
   </section>
 
-  <footer class="site-footer">
-    <div class="container">
-      <p>© 2026 Isabel & Jack</p>
+  <!-- RSVP Section -->
+  <section class="container rsvp">
+    <div class="section-title">
+      <h2>RSVP</h2>
     </div>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message (optional)" rows="4"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="container">
+    <div class="section-title">
+      <h2>Gallery</h2>
+    </div>
+    <div class="gallery">
+      <img src="images/gallery1.jpg" alt="Gallery Image">
+      <img src="images/gallery2.jpg" alt="Gallery Image">
+      <img src="images/gallery3.jpg" alt="Gallery Image">
+      <img src="images/gallery4.jpg" alt="Gallery Image">
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Isabel & Jack. All rights reserved.</p>
   </footer>
 
 </body>
